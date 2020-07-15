@@ -8,13 +8,13 @@
 ![Alt Text](https://img.shields.io/badge/jQuery-3.5.1-yellow)<br/>
 
 ## Full Stack Development
-*Capstone Project
-*Bootstap project
-*Javascript
-  *Basic exercise
-  *Level_1_Project
-  *Functions
-  *Arrays
-  *Objects
-*Doument Object Model
-*JQuery
+* Capstone Project
+* Bootstap project
+* Javascript
+  * Basic exercise
+  * Level_1_Project
+  * Functions
+  * Arrays
+  * Objects
+* Doument Object Model
+* JQuery
