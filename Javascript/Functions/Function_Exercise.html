@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Function Exercise</title>
+    <script type="text/javascript" src='Function.js'></script>
+</head>
+<body>
+    <h1>
+        Function Exercise
+    </h1>
+    <div class = container>
+        <p>
+        <h3>PROBLEM 1: SLEEPING IN</h3>
+
+ Write a function called sleepIn that takes in two boolean parameters: weekday
+ and vacation.
+
+ The parameter weekday is true if it is a weekday, and the parameter vacation is
+ true if we are on vacation. We sleep in if it is not a weekday or
+ we're on vacation. Return true if we sleep in.<br>
+
+ So some example input and output:<br>
+
+ sleepIn(false, false) → true<br>
+ sleepIn(true, false) → false<br>
+ sleepIn(false, true) → true
+        </p>
+
+           <h3>PROBLEM 2: MONKEY TROUBLE</h3>
+
+ We have two monkeys, a and b, and the parameters aSmile and bSmile indicate if
+ each is smiling. We are in trouble if they are both smiling or if neither of
+ them is smiling. Return true if we are in trouble.<br>
+
+ Example Input and Output<br>
+
+ monkeyTrouble(true, true) → true<br>
+ monkeyTrouble(false, false) → true<br>
+ monkeyTrouble(true, false) → false
+        </p>
+        <p>
+        <h3>PROBLEM 3: STRING TIMES</h3>
+
+ Given a string and a non-negative int n, return a larger
+ string that is n copies of the original string.<br>
+
+ Example input and output:BONUS: MAKE BRICKS<br>
+
+ stringTimes("Hi", 2) → "HiHi"<br>
+ stringTimes("Hi", 3) → "HiHiHi"<br>
+ stringTimes("Hi", 1) → "Hi"
+
+        </p>
+        <p>
+            <h3>PROBLEM 4: LUCKY SUM</h3>
+ Given 3 numerical values, a b c, return their sum. However, if one of the values is
+ 13 then it does not count towards the sum and values to its right do not count.
+ So for example, if b is 13, then both b and c do not count.<br>
+
+
+Example input and output<br>
+
+ luckySum(1, 2, 3) → 6<br>
+ luckySum(1, 2, 13) → 3<br>
+ luckySum(1, 13, 3) → 1
+
+        </p>
+        <h3>
+            PROBLEM 5: Speeding</h3>
+        <p>
+
+ You are driving a little too fast, and a police officer stops you. Write code to
+ compute the result, encoded as an int value: 0=no ticket, 1=small ticket,
+ 2=big ticket. If speed is 60 or less, the result is 0. If speed is between 61
+ and 80 inclusive, the result is 1. If speed is 81 or more, the result is 2.
+ Unless it is your birthday -- on that day, your speed can be 5 higher in all cases.<br>
+
+ Here are some example inputs and outputs:<br>
+
+ caught_speeding(60, false) → 0<br>
+ caught_speeding(65, false) → 1<br>
+ caught_speeding(65, true) → 0
+        </p>
+        <p>
+        <h3>PROBLEM 6: MAKE BRICKS</h3>
+
+ We want to make a row of bricks that is goal inches long. We have a number of
+ small bricks (1 inch each) and big bricks (5 inches each). Return true if it
+ is possible to make the goal by choosing from the given bricks. <br>
+
+ makeBricks(3, 1, 8) → true<br>
+ makeBricks(3, 1, 9) → false<br>
+ makeBricks(3, 2, 10) → true
+
+        </p>
+    </div>
+
+</body>
+</html>
