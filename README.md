@@ -22,3 +22,8 @@
   * Game Project
 * JQuery
   * Connect Four Game
+ * Django Level One
+ * Django Level Two
+ * Django Level Three
+ * Django Level Four
+ * Django Level Five
