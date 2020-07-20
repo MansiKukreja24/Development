@@ -17,4 +17,8 @@
   * Arrays
   * Objects
 * Doument Object Model
+  * Content Interaction
+  * Events
+  * Game Project
 * JQuery
+  * Connect Four Game
