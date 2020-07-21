@@ -22,6 +22,5 @@ from first_app import views
 urlpatterns = [
     url(r'^$',views.index,name='index'),        # Function view
     url(r'^first_app/',include('first_app.urls')),
-
     url('admin/', admin.site.urls),
 ]
