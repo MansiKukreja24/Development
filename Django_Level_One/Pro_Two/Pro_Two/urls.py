@@ -20,7 +20,8 @@ from django.conf.urls import include
 from App_Two import views
 
 urlpatterns = [
-    url(r'^$',views.index,name='index'), # Function view
+    url(r'^$',views.index,name='index'),# Function view
+    url(r'^help/',include('App_Two.urls')),
     url('admin/', admin.site.urls),
 ]
 
